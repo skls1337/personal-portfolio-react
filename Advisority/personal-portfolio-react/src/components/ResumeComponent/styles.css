@@ -1,0 +1,75 @@
+.resume-container {
+  margin-top: 210px;
+}
+
+.timeline {
+  box-sizing: border-box;
+}
+
+.timeline-wrapper {
+  position: relative;
+  padding: 22px 0;
+}
+
+.timeline-yr {
+  background: #ff0022;
+  border-radius: 100%;
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+}
+
+.timeline-yr span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  line-height: 75px;
+}
+
+.timeline-info {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 432px;
+  margin-left: 6em;
+}
+
+.timeline-info span {
+  font-weight: bold;
+}
+
+.timeline-info small {
+  color: #ff0022;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.timeline-info p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #5b5b5b;
+  text-align: justify;
+}
+
+.timeline-wrapper::before {
+    content: "";
+    background: #ff0000;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 38px;
+}
+.timeline-wrapper:last-child::before {
+    height: 0;
+}
+h2 {
+    color: #353535;
+    font-size: 2.4em;
+    font-weight: bold;
+}
