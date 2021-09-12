@@ -5,7 +5,7 @@ import Logo from "../../assets/cover-image.svg";
 
 export const About = () => {
   return (
-    <div className="container">
+    <div className="container about-container" id="about-component">
       <div className="row">
         <div className="col-lg-8 col-md-12 col-12 d-flex align-items-center">
           <div className="about-text">

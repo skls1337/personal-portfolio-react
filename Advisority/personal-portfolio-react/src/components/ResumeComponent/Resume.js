@@ -4,7 +4,7 @@ import "./styles.css";
 
 export const Resume = () => {
   return (
-    <div className="container resume-container">
+    <div className="container resume-container" id="resume-component">
       <div className="row">
         <div className="row">
           <div className="col-lg-6 col-12">
